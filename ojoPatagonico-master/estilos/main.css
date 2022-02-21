@@ -1,0 +1,304 @@
+.grilla {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: auto auto auto;
+      grid-template-rows: auto auto auto;
+  gap: 0px 0px;
+  background-image: url(./Fotos/fondo3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  height: 100%;
+}
+
+.navbar-brand img {
+  max-width: 240px;
+  width: 100%;
+}
+
+.footFormat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.footFormat p {
+  text-align: center;
+}
+
+.copyright {
+  font-size: small;
+}
+
+.indexMain {
+  padding: 71px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  background-color: rgba(44, 44, 44, 0.5);
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  max-width: 350px;
+  width: 100%;
+}
+
+.mainFotografos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(44, 44, 44, 0.5);
+}
+
+.mainFotografos h5 {
+  padding: 5px;
+  font-size: 2rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+}
+
+.fotografos {
+  max-width: 1200px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fotografos img {
+  max-width: 350px;
+  width: 100%;
+}
+
+.fotografos p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: medium;
+  text-align: justify;
+  max-width: 340px;
+  width: 100%;
+}
+
+.mainText, .info p, .fotografos p, .mainTarifas p {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+  font-size: large;
+  text-align: end;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.mainText:hover, .info p:hover, .fotografos p:hover, .mainTarifas p:hover {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  font-size: larger;
+  color: white;
+  cursor: pointer;
+}
+
+.flexColCent, .mainTarifas, .mainContacto, .tarjeta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.GalleryMain {
+  margin: 1em;
+  background-color: rgba(44, 44, 44, 0.5);
+}
+
+.Gallery {
+  -webkit-columns: 3 350px;
+          columns: 3 350px;
+  -webkit-column-gap: 0.5em;
+          column-gap: 0.5em;
+}
+
+.Gallery img {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 0.5em;
+  outline: 2px solid #d8d8d8;
+  outline-offset: -10px;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.Gallery img:hover {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  outline-offset: 0px;
+  cursor: pointer;
+}
+
+.mainTarifas {
+  padding: 15%;
+  margin: auto;
+  background-color: rgba(44, 44, 44, 0.5);
+}
+
+.mainTarifas p {
+  text-align: center;
+  font-size: large;
+  font-weight: 400;
+}
+
+.mainTarifas table {
+  background-color: rgba(240, 248, 255, 0.5);
+  max-width: 800px;
+  width: 100%;
+}
+
+.mainTarifas table tr th {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.mainTarifas table tr td {
+  text-align: center;
+  border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+  .mainTarifas {
+    padding: 50px 0;
+  }
+}
+
+.mainContacto h5 {
+  font-size: xx-large;
+  padding: 1em;
+}
+
+.tarjetas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: rgba(44, 44, 44, 0.5);
+  padding: 3% 0;
+}
+
+.tarjeta p {
+  margin: 0;
+  padding: 1em 0;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+.tarjeta ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.tarjeta img {
+  max-height: 347px;
+  height: 100%;
+  max-width: 350px;
+  width: 100%;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-flickr {
+  color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header h1 {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */

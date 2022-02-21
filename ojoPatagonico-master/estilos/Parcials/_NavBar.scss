@@ -1,0 +1,7 @@
+@import "./Mixins";
+
+.navbar-brand {
+    & img {
+        @include widthSizes (240px, 100%);
+    }
+}

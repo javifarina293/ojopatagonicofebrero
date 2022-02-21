@@ -1,0 +1,25 @@
+
+.GalleryMain {
+    margin: 1em;
+    background-color: rgba($color: #2c2c2c, $alpha: 0.5);
+}
+
+.Gallery {
+    columns: 3 350px;
+    column-gap: 0.5em; 
+    & img {
+        display: block;
+        max-width: 100%;
+        margin-bottom: 0.5em;
+        outline: 2px solid rgb(216, 216, 216);
+        outline-offset: -10px;
+        filter: brightness(80%);
+        transition: 0.25s;
+        &:hover {
+            filter: brightness(100%);
+            transition: 0.25s;
+            outline-offset: 0px;
+            cursor: pointer;
+        }
+    }
+}

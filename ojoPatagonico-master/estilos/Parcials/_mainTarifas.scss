@@ -1,0 +1,36 @@
+
+.mainTarifas {
+    @extend .flexColCent;
+    padding: 15%;
+    margin: auto;
+    background-color: rgba($color: #2c2c2c, $alpha: 0.5);
+    & p {
+        @extend .mainText;
+        text-align: center;
+        font-size: large;
+        font-weight: 400;
+    }
+    & table {
+        background-color: rgba(240, 248, 255, 0.5);
+        max-width: 800px;
+        width: 100%;
+
+        & tr {
+            & th {
+                text-align: center;
+                border: 1px solid black;
+            }
+            & td {
+                text-align: center;
+                border: 1px solid black;
+            }
+
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .mainTarifas {
+        padding: 50px 0;
+    }
+}

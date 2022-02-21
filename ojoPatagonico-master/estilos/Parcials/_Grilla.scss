@@ -1,0 +1,14 @@
+.grilla {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto auto auto; 
+    gap: 0px 0px; 
+    background-image: url(./Fotos/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    max-height: fit-content;
+    height: 100%;
+}

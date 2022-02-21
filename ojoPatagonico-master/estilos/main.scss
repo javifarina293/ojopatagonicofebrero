@@ -1,0 +1,24 @@
+@import "./Parcials/Grilla";
+@import "./Parcials/NavBar";
+@import "./Parcials/Footer";
+@import "./Parcials/mainIndex";
+@import "./Parcials/mainFotografos";
+@import "./Parcials/Extends";
+@import "./Parcials/Maps";
+@import "./Parcials/Mixins";
+@import "./Parcials/mainGallery";
+@import "./Parcials/mainTarifas";
+@import "./Parcials/mainContacto";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header h1 {
+    display: none;
+}
